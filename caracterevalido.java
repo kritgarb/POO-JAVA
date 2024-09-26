@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class caracterevalido {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
 
             // captar o primeiro número
@@ -17,36 +17,38 @@ public class caracterevalido {
             // captar o operador
             System.out.print("Digite o operador: ");
             // armazenar o operador
-            char operador = scanner.next().charAt(0);;
+            char operador = scanner.next().charAt(0);
+            ;
             int result = 0;
             // verifica operador
             switch (operador) {
                 case '+':
-                result = dado1 + dado2;
-                System.out.print(result);     
-                break;
+                    result = dado1 + dado2;
+                    System.out.print(result);
+                    break;
 
                 case '-':
-                result = dado1 - dado2;
-                System.out.print(result);     
-                break;
+                    result = dado1 - dado2;
+                    System.out.print(result);
+                    break;
 
                 case '/':
-                result = dado1 / dado2;
-                System.out.print(result);     
-                break;
+                    result = dado1 / dado2;
+                    System.out.print(result);
+                    break;
 
                 case '*':
-                result = dado1 * dado2;
-                System.out.print(result);     
-                break;
-            
+                    result = dado1 * dado2;
+                    System.out.print(result);
+                    break;
+
                 default:
-                System.out.print("Operação inválida"); 
-                break;
+                    System.out.print("Operação inválida");
+                    break;
             }
-            
+
             scanner.close();
         }
     }
+
 }

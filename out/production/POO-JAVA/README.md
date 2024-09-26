@@ -12,11 +12,7 @@ Repositório dedicado a exercícios, trabalhos, e projetos simples da disciplina
 
 - [imc.java]: Um algoritmo que recebe o peso (em kg) e a altura (em metros) de uma pessoa e calcule o Índice de Massa Corporal (IMC).
 
-- [GestaoAnimal.java]: Sistema de gestão de consultas, incluindo cálculo de valores e registro de tratamentos.
 
-- [Produto.java]: Sistema de gerenciamento de produtos, fornecendo um modelo para representar e manipular informações sobre produtos de forma organizada e segura.
- 
-- [Recursos.java]: Sistema que modela reservatórios de água, com foco na relação entre capacidade e área.
 
 ## Aprendizados
 
@@ -26,12 +22,8 @@ Repositório dedicado a exercícios, trabalhos, e projetos simples da disciplina
 
 - [imc.java]: Lidar com diferentes formatos de entrada numérica, como vírgula, ponto ou sem separador decimal. Usar técnicas de substituição e ajuste de string para normalizar a entrada antes de processá-la.
 
-- [GestaoAnimal.java]: Utilizar conceitos como herança, polimorfismo e encapsulamento para organizar e modularizar o código.
 
-- [Produto.java]: Utilizar Abstração, Encapsulamento, Herança e Polimorfismo para modelar um sistema de gerenciamento de produtos.
 
-- [Recursos.java]: Composição de classes, encapsulamento e métodos de acesso para criar um sistema de gestão de reservatórios de água.
- 
 ## Etiquetas
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 
